@@ -1,0 +1,8 @@
+[package]
+name = "alfred-zsh-history"
+version = "0.1.0"
+authors = ["Romain Baumier <baumier.romain@gmail.com>"]
+
+[dependencies]
+alfred = "3.0"
+dirs = "1.0.4"
