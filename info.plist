@@ -39,6 +39,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -46,7 +48,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>zh</string>
+				<string>z</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -58,7 +60,7 @@
 				<key>runningsubtext</key>
 				<string>Searching...</string>
 				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<string>./alfred-zsh-history "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -77,7 +79,7 @@
 			<key>uid</key>
 			<string>9AD42A0A-4B2A-48F7-9CF6-4264DEF29FED</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -94,7 +96,7 @@
 			<key>uid</key>
 			<string>F05C1C05-9904-4EDA-8116-9D05012045FE</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -106,17 +108,21 @@
 			<key>xpos</key>
 			<integer>430</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>210</integer>
 		</dict>
 		<key>F05C1C05-9904-4EDA-8116-9D05012045FE</key>
 		<dict>
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>210</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string>twitter.com/rbaumier</string>
+	<string>rbaumier.com</string>
 </dict>
 </plist>
